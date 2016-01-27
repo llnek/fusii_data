@@ -21,8 +21,8 @@
       </dict>
       <key>layout</key>
       <array>
-        <string>1,1,2,1,1</string>
-        <string>1,1,1,1</string>
+        <string>32,1,1,2,1,1</string>
+        <string>64,1,1,1,1</string>
       </array>
     </dict>
 
