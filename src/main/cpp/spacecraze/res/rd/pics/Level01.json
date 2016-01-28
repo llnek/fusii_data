@@ -1,0 +1,26 @@
+{
+  "player" : {
+    "fireRate" : 1.0,
+    "speed" :  150
+  },
+
+  "enemy" : {
+    "moveDuration" : 5.0,
+    "fireRate" : 1.0,
+    "speed" : 150,
+    "scores" : {
+      "1" :  25,
+      "2" : 50
+    },
+    "layout" : [
+      { "gap" : 32, "fmt" : [1, 1, 2, 1, 1 ] },
+      { "gap" : 64, "fmt" : [1, 1, 1, 1 ] }
+    ]
+  },
+
+  "brick" : {
+  }
+
+}
+
+
