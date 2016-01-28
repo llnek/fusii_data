@@ -5,19 +5,19 @@
     <key>player</key>
     <dict>
       <key>fireRate</key>
-      <real>1.0</real>
+      <string>1.0</string>
     </dict>
 
     <key>enemy</key>
     <dict>
       <key>moveDuration</key>
-      <real>3.0</real>
+      <string>0.5</string>
       <key>fireRate</key>
-      <real>5.0</real>
+      <string>0.5</string>
       <key>scores</key>
       <dict>
-        <key>sfenmy1</key><integer>25</integer>
-        <key>sfenmy2</key><integer>50</integer>
+        <key>sfenmy1</key><string>25</string>
+        <key>sfenmy2</key><string>50</string>
       </dict>
       <key>layout</key>
       <array>

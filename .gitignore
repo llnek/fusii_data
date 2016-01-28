@@ -1,3 +1,10 @@
+cocos/
+games/
+sandbox/
+
+#os-x crap
+.DS_Store
+
 # Compiled Object files
 *.slo
 *.lo
