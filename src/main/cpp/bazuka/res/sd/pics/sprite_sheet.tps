@@ -210,6 +210,18 @@
             <filename>soundOFF.png</filename>
             <filename>soundON.png</filename>
             <filename>treesNbush.png</filename>
+            <filename>enemy_idle_1.png</filename>
+            <filename>enemy_idle_2.png</filename>
+            <filename>enemy_idle_3.png</filename>
+            <filename>enemy_idle_4.png</filename>
+            <filename>player_boost_1.png</filename>
+            <filename>player_boost_2.png</filename>
+            <filename>player_boost_3.png</filename>
+            <filename>player_boost_4.png</filename>
+            <filename>player_idle_1.png</filename>
+            <filename>player_idle_2.png</filename>
+            <filename>player_idle_3.png</filename>
+            <filename>player_idle_4.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
