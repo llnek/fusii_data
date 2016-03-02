@@ -34,6 +34,36 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
+            <key>sound_off.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{48,48}</string>
+                <key>spriteSourceSize</key>
+                <string>{48,48}</string>
+                <key>textureRect</key>
+                <string>{{181,1},{48,48}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>sound_on.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{48,48}</string>
+                <key>spriteSourceSize</key>
+                <string>{48,48}</string>
+                <key>textureRect</key>
+                <string>{{131,51},{48,48}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
             <key>tile.png</key>
             <dict>
                 <key>aliases</key>
@@ -45,7 +75,7 @@
                 <key>spriteSourceSize</key>
                 <string>{32,32}</string>
                 <key>textureRect</key>
-                <string>{{131,51},{32,32}}</string>
+                <string>{{181,51},{32,32}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -57,9 +87,9 @@
             <key>realTextureFileName</key>
             <string>sprite_sheet.png</string>
             <key>size</key>
-            <string>{180,130}</string>
+            <string>{230,130}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:e6f0e6e3e2d8812d4486e4c3aec2f7bb:1f65c1dc3bf9039690f6a4ad9708b957:15058cce2ad93a426e9374343a733a78$</string>
+            <string>$TexturePacker:SmartUpdate:6a20a9357e7fa673376b62e6bb1e11cc:e57f256e49be46664ee887302111fb70:15058cce2ad93a426e9374343a733a78$</string>
             <key>textureFileName</key>
             <string>sprite_sheet.png</string>
         </dict>

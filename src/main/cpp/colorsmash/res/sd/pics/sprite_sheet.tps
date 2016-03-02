@@ -195,6 +195,8 @@
             <filename>pause_button.png</filename>
             <filename>play_button.png</filename>
             <filename>tile.png</filename>
+            <filename>sound_off.png</filename>
+            <filename>sound_on.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
