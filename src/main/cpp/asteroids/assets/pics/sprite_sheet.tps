@@ -4,9 +4,9 @@
         <key>fileFormatVersion</key>
         <int>3</int>
         <key>texturePackerVersion</key>
-        <string>3.3.2</string>
+        <string>4.1.0</string>
         <key>fileName</key>
-        <string>/wdrive/mygithub/cocos2d/src/web/asteroids/res/game/sprites.tps</string>
+        <string>/wdrive/myspace/toffee/src/main/cpp/asteroids/assets/pics/sprite_sheet.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -36,11 +36,27 @@
         <key>dpi</key>
         <uint>72</uint>
         <key>dataFormat</key>
-        <string>cocos2d</string>
+        <string>cocos2d-x</string>
         <key>textureFileName</key>
-        <filename>sprites.png</filename>
+        <filename></filename>
         <key>flipPVR</key>
         <false/>
+        <key>pvrCompressionQuality</key>
+        <enum type="SettingsBase::PvrCompressionQuality">PVR_QUALITY_NORMAL</enum>
+        <key>atfCompressData</key>
+        <false/>
+        <key>mipMapMinSize</key>
+        <uint>32768</uint>
+        <key>etc1CompressionQuality</key>
+        <enum type="SettingsBase::Etc1CompressionQuality">ETC1_QUALITY_LOW_PERCEPTUAL</enum>
+        <key>dxtCompressionMode</key>
+        <enum type="SettingsBase::DxtCompressionMode">DXT_PERCEPTUAL</enum>
+        <key>jxrColorFormat</key>
+        <enum type="SettingsBase::JpegXrColorMode">JXR_YUV444</enum>
+        <key>jxrTrimFlexBits</key>
+        <uint>0</uint>
+        <key>jxrCompressionLevel</key>
+        <uint>0</uint>
         <key>ditherType</key>
         <enum type="SettingsBase::DitherType">NearestNeighbour</enum>
         <key>backgroundColor</key>
@@ -56,11 +72,11 @@
             </struct>
         </struct>
         <key>shapePadding</key>
-        <uint>2</uint>
+        <uint>0</uint>
         <key>jpgQuality</key>
         <uint>80</uint>
         <key>pngOptimizationLevel</key>
-        <uint>0</uint>
+        <uint>1</uint>
         <key>webpQualityLevel</key>
         <uint>101</uint>
         <key>textureSubPath</key>
@@ -68,7 +84,7 @@
         <key>textureFormat</key>
         <enum type="SettingsBase::TextureFormat">png</enum>
         <key>borderPadding</key>
-        <uint>2</uint>
+        <uint>0</uint>
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
@@ -92,11 +108,11 @@
             <key>freeSizeMode</key>
             <enum type="AlgorithmSettings::AlgorithmFreeSizeMode">Best</enum>
             <key>sizeConstraints</key>
-            <enum type="AlgorithmSettings::SizeConstraints">POT</enum>
+            <enum type="AlgorithmSettings::SizeConstraints">AnySize</enum>
             <key>forceSquared</key>
             <false/>
             <key>forceWordAligned</key>
-            <false/>
+            <true/>
             <key>maxRects</key>
             <struct type="AlgorithmMaxRectsSettings">
                 <key>heuristic</key>
@@ -131,7 +147,13 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>sprites.plist</filename>
+                <filename>sprite_sheet.plist</filename>
+            </struct>
+            <key>header</key>
+            <key>source</key>
+            <struct type="DataFile">
+                <key>name</key>
+                <filename></filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -149,6 +171,8 @@
         <true/>
         <key>trimSpriteNames</key>
         <false/>
+        <key>prependSmartFolderName</key>
+        <false/>
         <key>cleanTransparentPixels</key>
         <true/>
         <key>globalSpriteSettings</key>
@@ -157,22 +181,58 @@
             <double>1</double>
             <key>scaleMode</key>
             <enum type="ScaleMode">Smooth</enum>
-            <key>innerPadding</key>
-            <uint>0</uint>
             <key>extrude</key>
-            <uint>0</uint>
+            <uint>1</uint>
             <key>trimThreshold</key>
+            <uint>1</uint>
+            <key>trimMargin</key>
             <uint>1</uint>
             <key>trimMode</key>
             <enum type="SpriteSettings::TrimMode">Trim</enum>
+            <key>tracerTolerance</key>
+            <int>200</int>
             <key>heuristicMask</key>
             <false/>
-            <key>pivotPoint</key>
-            <enum type="SpriteSettings::PivotPoint">Center</enum>
+            <key>defaultPivotPoint</key>
+            <point_f>0.5,0.5</point_f>
+            <key>writePivotPoints</key>
+            <false/>
         </struct>
+        <key>individualSpriteSettings</key>
+        <map type="IndividualSpriteSettingsMap">
+            <key type="filename">laserGreen.png</key>
+            <key type="filename">laserGreenShot.png</key>
+            <key type="filename">laserOrangeShot.png</key>
+            <key type="filename">laserRed.png</key>
+            <key type="filename">laserRedShot.png</key>
+            <key type="filename">rock_large.png</key>
+            <key type="filename">rock_med.png</key>
+            <key type="filename">rock_small.png</key>
+            <key type="filename">rship_0.png</key>
+            <key type="filename">rship_1.png</key>
+            <key type="filename">sound_off.png</key>
+            <key type="filename">sound_on.png</key>
+            <key type="filename">ufo.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+            </struct>
+        </map>
         <key>fileList</key>
         <array>
-            <filename>./</filename>
+            <filename>laserGreen.png</filename>
+            <filename>laserGreenShot.png</filename>
+            <filename>laserOrangeShot.png</filename>
+            <filename>laserRed.png</filename>
+            <filename>laserRedShot.png</filename>
+            <filename>rock_large.png</filename>
+            <filename>rock_med.png</filename>
+            <filename>rock_small.png</filename>
+            <filename>rship_0.png</filename>
+            <filename>rship_1.png</filename>
+            <filename>sound_off.png</filename>
+            <filename>sound_on.png</filename>
+            <filename>ufo.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
@@ -184,5 +244,15 @@
         <uint>1</uint>
         <key>commonDivisorY</key>
         <uint>1</uint>
+        <key>packNormalMaps</key>
+        <false/>
+        <key>autodetectNormalMaps</key>
+        <true/>
+        <key>normalMapFilter</key>
+        <string></string>
+        <key>normalMapSuffix</key>
+        <string></string>
+        <key>normalMapSheetFileName</key>
+        <filename></filename>
     </struct>
 </data>
