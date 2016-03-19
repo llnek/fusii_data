@@ -4,9 +4,9 @@
         <key>fileFormatVersion</key>
         <int>3</int>
         <key>texturePackerVersion</key>
-        <string>4.0.2</string>
+        <string>4.1.0</string>
         <key>fileName</key>
-        <string>/wdrive/myspace/toffee/src/main/cpp/prototype/res/rd/pics/sprite_sheet.tps</string>
+        <string>/wdrive/myspace/toffee/src/main/cpp/blast/assets/pics/sprite_sheet.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -149,6 +149,12 @@
                 <key>name</key>
                 <filename>sprite_sheet.plist</filename>
             </struct>
+            <key>header</key>
+            <key>source</key>
+            <struct type="DataFile">
+                <key>name</key>
+                <filename></filename>
+            </struct>
         </map>
         <key>multiPack</key>
         <false/>
@@ -187,29 +193,26 @@
             <int>200</int>
             <key>heuristicMask</key>
             <false/>
-            <key>pivotPoint</key>
-            <enum type="SpriteSettings::PivotPoint">Center</enum>
+            <key>defaultPivotPoint</key>
+            <point_f>0.5,0.5</point_f>
+            <key>writePivotPoints</key>
+            <false/>
         </struct>
+        <key>individualSpriteSettings</key>
+        <map type="IndividualSpriteSettingsMap">
+            <key type="filename">play_button.png</key>
+            <key type="filename">sound_off.png</key>
+            <key type="filename">sound_on.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+            </struct>
+        </map>
         <key>fileList</key>
         <array>
-            <filename>asteroid_1.png</filename>
-            <filename>asteroid_2.png</filename>
-            <filename>asteroid_3.png</filename>
-            <filename>game-over.png</filename>
-            <filename>game-title.png</filename>
-            <filename>pause-sel.png</filename>
-            <filename>pause-std.png</filename>
-            <filename>play-sel.png</filename>
-            <filename>play-std.png</filename>
-            <filename>player.png</filename>
-            <filename>replay-sel.png</filename>
-            <filename>replay-std.png</filename>
-            <filename>resume-sel.png</filename>
-            <filename>resume-std.png</filename>
+            <filename>play_button.png</filename>
             <filename>sound_off.png</filename>
             <filename>sound_on.png</filename>
-            <filename>splash-sel.png</filename>
-            <filename>splash-std.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
