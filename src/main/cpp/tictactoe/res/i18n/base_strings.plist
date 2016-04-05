@@ -60,16 +60,16 @@
       <string>PLAY</string>
 
       <key>waitothers</key>
-      <string>Waiting...\nfor other players.</string>
+      <string>Waiting&#10;for&#10;other players&#10;...</string>
 
       <key>waitother</key>
-      <string>Waiting...\nfor another player.</string>
+      <string>Waiting&#10;for&#10;another player&#10;...</string>
 
       <key>signinplay</key>
-      <string>Please sign in to play.</string>
+      <string>Please sign in</string>
 
       <key>quit?</key>
-      <string>Continue and quit game?</string>
+      <string>Continue and quit?</string>
 
     </dict>
 
