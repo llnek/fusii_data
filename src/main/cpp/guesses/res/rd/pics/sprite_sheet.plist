@@ -4,122 +4,83 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>cover.png</key>
+            <key>icon_back.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1,1},{64,64}}</string>
+                <string>{{365,1},{176,176}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{64,64}}</string>
+                <string>{{2,2},{176,176}}</string>
                 <key>sourceSize</key>
-                <string>{64,64}</string>
+                <string>{180,180}</string>
             </dict>
-            <key>tile_0.png</key>
+            <key>icon_menu.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1,67},{64,64}}</string>
+                <string>{{543,1},{176,176}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{64,64}}</string>
+                <string>{{2,2},{176,176}}</string>
                 <key>sourceSize</key>
-                <string>{64,64}</string>
+                <string>{180,180}</string>
             </dict>
-            <key>tile_1.png</key>
+            <key>icon_quit.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1,133},{64,64}}</string>
+                <string>{{721,1},{176,176}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{64,64}}</string>
+                <string>{{2,2},{176,176}}</string>
                 <key>sourceSize</key>
-                <string>{64,64}</string>
+                <string>{180,180}</string>
             </dict>
-            <key>tile_2.png</key>
+            <key>icon_replay.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{67,1},{64,64}}</string>
+                <string>{{899,1},{176,176}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{64,64}}</string>
+                <string>{{2,2},{176,176}}</string>
                 <key>sourceSize</key>
-                <string>{64,64}</string>
+                <string>{180,180}</string>
             </dict>
-            <key>tile_3.png</key>
+            <key>sound_off.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{133,1},{64,64}}</string>
+                <string>{{1,1},{180,180}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{64,64}}</string>
+                <string>{{0,0},{180,180}}</string>
                 <key>sourceSize</key>
-                <string>{64,64}</string>
+                <string>{180,180}</string>
             </dict>
-            <key>tile_4.png</key>
+            <key>sound_on.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{67,67},{64,64}}</string>
+                <string>{{183,1},{180,180}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{64,64}}</string>
+                <string>{{0,0},{180,180}}</string>
                 <key>sourceSize</key>
-                <string>{64,64}</string>
-            </dict>
-            <key>tile_5.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{67,133},{64,64}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{64,64}}</string>
-                <key>sourceSize</key>
-                <string>{64,64}</string>
-            </dict>
-            <key>tile_6.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{133,67},{64,64}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{64,64}}</string>
-                <key>sourceSize</key>
-                <string>{64,64}</string>
-            </dict>
-            <key>tile_7.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{133,133},{64,64}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{64,64}}</string>
-                <key>sourceSize</key>
-                <string>{64,64}</string>
+                <string>{180,180}</string>
             </dict>
         </dict>
         <key>metadata</key>
@@ -133,9 +94,9 @@
             <key>realTextureFileName</key>
             <string>sprite_sheet.png</string>
             <key>size</key>
-            <string>{198,198}</string>
+            <string>{1076,182}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:5c488a9902cf342ce980c8b2e2ebbd75:1eea104938b7525887f825c9394d52c1:15058cce2ad93a426e9374343a733a78$</string>
+            <string>$TexturePacker:SmartUpdate:6e01618e93f8579c44c6db561863ff82:258b8d29d42acde42a518a9b9dcf44a9:15058cce2ad93a426e9374343a733a78$</string>
             <key>textureFileName</key>
             <string>sprite_sheet.png</string>
         </dict>
