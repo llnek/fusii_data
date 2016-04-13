@@ -4,123 +4,101 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>purple</key>
+            <key>icon_back.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{46,46}}</string>
+                <string>{{1,1},{75,75}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{2,2},{46,46}}</string>
+                <string>{{0,0},{75,75}}</string>
                 <key>sourceSize</key>
-                <string>{50,50}</string>
+                <string>{75,75}</string>
             </dict>
-            <key>red</key>
+            <key>icon_menu.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{50,2},{46,46}}</string>
+                <string>{{78,1},{75,75}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{2,2},{46,46}}</string>
+                <string>{{0,0},{75,75}}</string>
                 <key>sourceSize</key>
-                <string>{50,50}</string>
+                <string>{75,75}</string>
             </dict>
-            <key>orange</key>
+            <key>icon_quit.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{98,2},{46,46}}</string>
+                <string>{{155,1},{75,75}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{2,2},{46,46}}</string>
+                <string>{{0,0},{75,75}}</string>
                 <key>sourceSize</key>
-                <string>{50,50}</string>
+                <string>{75,75}</string>
             </dict>
-            <key>green</key>
+            <key>icon_replay.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{146,2},{46,46}}</string>
+                <string>{{232,1},{75,75}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{2,2},{46,46}}</string>
+                <string>{{0,0},{75,75}}</string>
                 <key>sourceSize</key>
-                <string>{50,50}</string>
+                <string>{75,75}</string>
             </dict>
-            <key>blue</key>
+            <key>sound_off.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{194,2},{46,46}}</string>
+                <string>{{309,1},{75,75}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{2,2},{46,46}}</string>
+                <string>{{0,0},{75,75}}</string>
                 <key>sourceSize</key>
-                <string>{50,50}</string>
+                <string>{75,75}</string>
             </dict>
-            <key>grey</key>
+            <key>sound_on.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{242,2},{46,46}}</string>
+                <string>{{386,1},{75,75}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{2,2},{46,46}}</string>
+                <string>{{0,0},{75,75}}</string>
                 <key>sourceSize</key>
-                <string>{50,50}</string>
-            </dict>
-            <key>cyan</key>
-            <dict>
-                <key>frame</key>
-                <string>{{290,2},{46,46}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{2,2},{46,46}}</string>
-                <key>sourceSize</key>
-                <string>{50,50}</string>
-            </dict>
-            <key>yellow</key>
-            <dict>
-                <key>frame</key>
-                <string>{{338,2},{46,46}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{2,2},{46,46}}</string>
-                <key>sourceSize</key>
-                <string>{50,50}</string>
+                <string>{75,75}</string>
             </dict>
         </dict>
         <key>metadata</key>
         <dict>
             <key>format</key>
             <integer>2</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
             <key>realTextureFileName</key>
-            <string>globes.png</string>
+            <string>sprite_sheet.png</string>
             <key>size</key>
-            <string>{386,50}</string>
+            <string>{462,77}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:23d167d000fd33ffc7ca9cbf587fef32:26729b14fbb99cb0bcb7d434784278c4:5b797c3fea7ca89d0b52816bb8a9f0de$</string>
+            <string>$TexturePacker:SmartUpdate:dc11de21fcbf0a6b77e79b5dc3cceaa9:258b8d29d42acde42a518a9b9dcf44a9:15058cce2ad93a426e9374343a733a78$</string>
             <key>textureFileName</key>
-            <string>globes.png</string>
+            <string>sprite_sheet.png</string>
         </dict>
     </dict>
 </plist>
