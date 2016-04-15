@@ -4,121 +4,99 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>background.png</key>
+            <key>icon_back.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{1136,640}}</string>
+                <string>{{1,1},{37,37}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{1136,640}}</string>
+                <string>{{0,0},{37,37}}</string>
                 <key>sourceSize</key>
-                <string>{1136,640}</string>
+                <string>{37,37}</string>
             </dict>
-            <key>bullet.png</key>
+            <key>icon_menu.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1195,326},{18,18}}</string>
+                <string>{{40,1},{37,37}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{18,18}}</string>
+                <string>{{0,0},{37,37}}</string>
                 <key>sourceSize</key>
-                <string>{18,18}</string>
+                <string>{37,37}</string>
             </dict>
-            <key>defense_level_1.png</key>
+            <key>icon_quit.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1140,218},{106,106}}</string>
+                <string>{{79,1},{37,37}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{106,106}}</string>
+                <string>{{0,0},{37,37}}</string>
                 <key>sourceSize</key>
-                <string>{106,106}</string>
+                <string>{37,37}</string>
             </dict>
-            <key>defense_level_2.png</key>
+            <key>icon_replay.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1140,110},{106,106}}</string>
+                <string>{{118,1},{37,37}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{106,106}}</string>
+                <string>{{0,0},{37,37}}</string>
                 <key>sourceSize</key>
-                <string>{106,106}</string>
+                <string>{37,37}</string>
             </dict>
-            <key>defense_position.png</key>
+            <key>sound_off.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1231,326},{14,14}}</string>
+                <string>{{157,1},{37,37}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{14,14}}</string>
+                <string>{{0,0},{37,37}}</string>
                 <key>sourceSize</key>
-                <string>{14,14}</string>
+                <string>{37,37}</string>
             </dict>
-            <key>enemy.png</key>
+            <key>sound_on.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1140,326},{53,53}}</string>
+                <string>{{196,1},{37,37}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{53,53}}</string>
+                <string>{{0,0},{37,37}}</string>
                 <key>sourceSize</key>
-                <string>{53,53}</string>
-            </dict>
-            <key>path_step.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{1215,326},{14,14}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{14,14}}</string>
-                <key>sourceSize</key>
-                <string>{14,14}</string>
-            </dict>
-            <key>tower.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{1140,2},{106,106}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{106,106}}</string>
-                <key>sourceSize</key>
-                <string>{106,106}</string>
+                <string>{37,37}</string>
             </dict>
         </dict>
         <key>metadata</key>
         <dict>
             <key>format</key>
             <integer>2</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
             <key>realTextureFileName</key>
             <string>sprite_sheet.png</string>
             <key>size</key>
-            <string>{1248,644}</string>
+            <string>{234,39}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:06e5148617b933a481cf1f0727bd854c:91eb2fee5f62ca3644be0570f8400d0a:5883024717cedaf29eaaf7b658acfbd8$</string>
+            <string>$TexturePacker:SmartUpdate:6a630fe266e2324932e69baac618f8fb:258b8d29d42acde42a518a9b9dcf44a9:15058cce2ad93a426e9374343a733a78$</string>
             <key>textureFileName</key>
             <string>sprite_sheet.png</string>
         </dict>
